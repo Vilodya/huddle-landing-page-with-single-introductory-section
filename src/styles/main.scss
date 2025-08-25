@@ -1,0 +1,114 @@
+@use 'reset';
+
+@use 'fonts';
+@use 'mixins' as *;
+
+@use 'footer';
+
+.body {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--main-font);
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--purple-700);
+  background-image: url('/images/bg-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+
+.hero {
+  color: var(--white);
+  display: grid;
+  
+
+  &__logo {
+    display: inline-block;
+    width: 120px;
+    height: 19px;
+  }
+
+  &__image {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__content {
+    text-align: center;
+  }
+
+  &__title {
+    @include text-preset-1;
+    font-size: 20px;
+  }
+
+  &__text {
+
+  }
+
+  &__button {
+
+  }
+
+  &__links {
+    display: flex;
+    gap: var(--spacing-200);
+    justify-self: center;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    
+    &-image {
+
+    }
+  }
+
+
+}
+.hero__logo-link {
+}
+
+.hero__image {
+}
+.hero__title {
+}
+.hero__text {
+}
+.btn {
+}
+.hero__button {
+}
+.hero__links {
+}
+.hero__link {
+}
+.hero__link-image {
+}
+
+@media(min-width: 768px) {
+  
+}
+
+@media(min-width: 1100px) {
+
+
+}
+
+
+
+
+
+

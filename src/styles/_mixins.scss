@@ -1,0 +1,22 @@
+@mixin text-base {
+  font-family: var(--main-font);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  font-weight: var(--font-weight-400);
+}
+
+@mixin text-preset-1 {
+  @include text-base;
+  font-family: var(---accent-font);
+  font-weight: var(--font-weight-600);
+  line-height: 1.25;
+}
+
+@mixin text-preset-2 {
+  @include text-base;
+}
+
+@mixin text-preset-3 {
+  @include text-base;
+  font-family: var(---accent-font);
+}
