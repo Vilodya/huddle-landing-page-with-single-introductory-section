@@ -19,7 +19,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 ### Links
 
 - Solution URL: [solution URL](https://github.com/Vilodya/huddle-landing-page-with-single-introductory-section)
-- Live Site URL: [live site](https://your-live-site-url.com)
+- Live Site URL: [live site](https://vilodya.github.io/testimonials-grid-section-main/)
 
 ## My process
 
